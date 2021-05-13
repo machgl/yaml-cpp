@@ -29,6 +29,9 @@ project "yaml-cpp"
 		cppdialect "C++17"
 		staticruntime "On"
 
+	filter "system:macosx"
+        systemversion "latest"
+
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
