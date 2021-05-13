@@ -31,6 +31,7 @@ project "yaml-cpp"
 
 	filter "system:macosx"
         systemversion "latest"
+		cppdialect "C++17"
 
 	filter "configurations:Debug"
 		runtime "Debug"
